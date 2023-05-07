@@ -5,6 +5,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import Navigation from "./components/navigation";
 import Background from "./components/background";
 import Landing from "./features/landing";
 import Test from "./features/test";
@@ -30,13 +31,15 @@ export function App(): JSX.Element {
 
   return (
     <Background className="h-screen w-screen">
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Landing />} />
-          <Route path="/personality/take-test" element={<Test />} />
-          <Route path="/personality/result" element={<Result />} />
-        </Routes>
-      </BrowserRouter>
+      <Navigation>
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Landing />} />
+            <Route path="/personality/take-test" element={<Test />} />
+            <Route path="/personality/result" element={<Result />} />
+          </Routes>
+        </BrowserRouter>
+      </Navigation>
     </Background>
   );
 }
