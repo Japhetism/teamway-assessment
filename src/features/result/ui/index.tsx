@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { result } from "../../constants/result";
-import { getFinalResult } from "../../utils/helper";
+import { result } from "../../../constants/result";
+import { getFinalResult } from "../../../utils/helper";
 
 export default function Result(): JSX.Element {
 
