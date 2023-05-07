@@ -43,7 +43,8 @@ export const saveFinalResult = (result: string) => {
 }
 
 export const getFinalResult = () => {
-    localStorage.getItem("finalResult");
+    const result = localStorage.getItem("finalResult");
+    return result;
 }
 
 export const clearStorage = () => {
