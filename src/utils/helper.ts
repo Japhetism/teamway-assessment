@@ -30,3 +30,22 @@ export const getQuestionAnswerType = (answer: string, extrovertOptions: string[]
         return "";
     }
 }
+
+export const getFinalResultType = (answers: string[]) => {
+    const extrovertCount = answers.filter(value => value == "Extrovert");
+    const introvertCount = answers.filter(value => value == "Introvert");
+
+    return extrovertCount > introvertCount ? "Extrovert" : "Introvert";
+}
+
+export const saveFinalResult = (result: string) => {
+    localStorage.setItem("finalResult", result);
+}
+
+export const getFinalResult = () => {
+    localStorage.getItem("finalResult");
+}
+
+export const clearStorage = () => {
+    localStorage.clear();
+}

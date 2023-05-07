@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import TestApi from "../data/TestApi";
 import useTestStore from "../data/TestStore";
 import TestRepository from "../domain/TestRepository";
-import { getQuestionAnswerType } from "../../../utils/helper";
+import { getQuestionAnswerType, getFinalResultType, saveFinalResult } from "../../../utils/helper";
 
 export default function ViewModel() {
     const repository: TestRepository = new TestRepository(new TestApi(), useTestStore());
@@ -37,7 +37,9 @@ export default function ViewModel() {
         const testAnswerOptions = getTestAnswerOptions();
         const answerType = getQuestionAnswerType(answer, testAnswerOptions.extrovertOptions, testAnswerOptions.introvertOptions)
         if (totalQuestion === questionNumber) {
-            setAnswers([...answers, answerType])
+            setAnswers([...answers, answerType]);
+            const finalAnswers = getFinalResultType(answers);
+            saveFinalResult(finalAnswers);
             navigate('/personality/result', { replace: true });
         } else {
             setAnswers([...answers, answerType])
