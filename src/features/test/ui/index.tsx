@@ -22,7 +22,7 @@ export default function Test(): JSX.Element {
                 options={test?.details?.options}
                 questionNumber={test?.questionNumber}
                 totalQuestions={test?.totalQuestion}
-                onBtnClick={(totalQuestion: number) => onNextQuestionClick(totalQuestion)}
+                onBtnClick={(totalQuestion: number, answer: string) => onNextQuestionClick(totalQuestion, answer)}
                 error={errorTitle || test?.error}
             />
         </>

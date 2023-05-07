@@ -6,7 +6,9 @@ export const questions = [
             "b": "Think it’s more important to give them some of your time; work can wait",
             "c": "Listen, but with only with half an ear",
             "d": "Interrupt and explain that you are really busy at the moment"
-        }
+        },
+        "extrovert": ["a", "b"],
+        "introvert": ["c", "d"]
     },
     {
         "question": "You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:",
@@ -15,7 +17,9 @@ export const questions = [
             "b": "Bubble with inner anger, but keep quiet",
             "c": "Explain to other equally impatient people in the room that the doctor is always running late",
             "d": "Complain in a loud voice, while tapping your foot impatiently"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "You’re having an animated discussion with a colleague regarding a project that you’re in charge of. You:",
@@ -23,8 +27,10 @@ export const questions = [
             "a": "Don’t dare contradict them",
             "b": "Think that they are obviously right",
             "c": "Defend your own point of view, tooth and nail",
-            "d": "Continuously interrupt your colleague"
-        }
+            "d": "Continuously interrupt your colleague",
+        },
+        "extrovert": ["a", "d"],
+        "introvert": ["b", "c"]
     },
     {
         "question": "You are taking part in a guided tour of a museum. You:",
@@ -33,7 +39,9 @@ export const questions = [
             "b": "Follow the group without question",
             "c": "Make sure that everyone is able to hear properly",
             "d": "Are right up the front, adding your own comments in a loud voice"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "During dinner parties at your home, you have a hard time with people who:",
@@ -42,7 +50,9 @@ export const questions = [
             "b": "Talk privately between themselves",
             "c": "Hang around you all evening",
             "d": "Always drag the conversation back to themselves"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "You crack a joke at work, but nobody seems to have noticed. You:",
@@ -51,7 +61,9 @@ export const questions = [
             "b": "Wait to share it with your friends after work",
             "c": "Try again a bit later with one of your colleagues",
             "d": "Keep telling it until they pay attention"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "This morning, your agenda seems to be free. You:",
@@ -60,7 +72,9 @@ export const questions = [
             "b": "Heave a sigh of relief and look forward to a day without stress",
             "c": "Question your colleagues about a project that’s been worrying you",
             "d": "Pick up the phone and start filling up your agenda with meetings"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "During dinner, the discussion moves to a subject about which you know nothing at all. You:",
@@ -69,7 +83,9 @@ export const questions = [
             "b": "Barely follow the discussion",
             "c": "Ask lots of questions to learn more about it",
             "d": "Change the subject of discussion"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "You’re out with a group of friends and there’s a person who’s quite shy and doesn’t talk much. You:",
@@ -78,7 +94,9 @@ export const questions = [
             "b": "Go and have a chat with them",
             "c": "Shoot some friendly smiles in their direction",
             "d": "Hardly notice them at all"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "At work, somebody asks for your help for the hundredth time. You:",
@@ -87,7 +105,9 @@ export const questions = [
             "b": "Accept — you’re known for being helpful",
             "c": "Ask them, please, to find somebody else for a change",
             "d": "Loudly make it known that you’re annoyed"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "You’ve been see a movie with your family and the reviews are mixed. You:",
@@ -96,7 +116,9 @@ export const questions = [
             "b": "Didn’t like the film, but keep your views to yourself when asked",
             "c": "State your point of view with enthusiasm",
             "d": "Try to bring the others round to your point of view"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "A friend arrives late for your meeting. You:",
@@ -105,7 +127,9 @@ export const questions = [
             "b": "Give them a filthy look and sulk for the rest of the evening",
             "c": "Tell them, ‘You’re too much! Have you seen the time?’",
             "d": "Make a scene in front of everyone"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "You can’t find your car keys. You:",
@@ -114,7 +138,9 @@ export const questions = [
             "b": "Panic and search madly without asking anyone for help",
             "c": "Grumble without telling your family why you’re in a bad mood",
             "d": "Accuse those around you for misplacing them"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     },
     {
         "question": "It’s time for your annual appraisal with your boss. You:",
@@ -123,6 +149,8 @@ export const questions = [
             "b": "Look forward to hearing what your boss thinks about you and expects from you",
             "c": "Rehearse ad nauseam the arguments and ideas that you’ve prepared for the meeting",
             "d": "Go along unprepared as you are confident and like improvising"
-        }
+        },
+        "extrovert": ["c", "d"],
+        "introvert": ["a", "b"]
     }
 ]

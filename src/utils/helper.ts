@@ -20,3 +20,13 @@ export const getQuestionHelper = (questionNumber: number) => {
 export const getButtonText = (questionNumber: number, totalQuestions: number) => {
     return questionNumber === totalQuestions ? "Finish Test" : "Next Question";
 }
+
+export const getQuestionAnswerType = (answer: string, extrovertOptions: string[], introvertOptions: string[]) => {
+    if (extrovertOptions.indexOf(answer)) {
+        return "Extrovert";
+    } else if (introvertOptions.indexOf(answer)) {
+        return "Introvert";
+    } else {
+        return "";
+    }
+}
