@@ -1,6 +1,6 @@
-import Card from "../../components/card";
-import IntroExtroImg from "../../assets/images/introextro.jpeg";
-import { landingPageContent } from "../../constants/landingPageContent";
+import Card from "../../../components/card";
+import IntroExtroImg from "../../../assets/images/introextro.jpeg";
+import { landingPageContent } from "../../../constants/landingPageContent";
 
 interface LandingPageContentProps {
     title: string;
@@ -12,7 +12,7 @@ interface LandingPageContentProps {
 
 export default function Landing(): JSX.Element {
     return (
-        <div className="p-20">
+        <>
             <img src={IntroExtroImg} alt="Jap Psychologies" className="w-3/5 h-2/5" />
             <div className="grid grid-rows-4 gap-10 py-10">
                 {landingPageContent.map((content: LandingPageContentProps) => (
@@ -25,6 +25,6 @@ export default function Landing(): JSX.Element {
                     />
                 ))}
             </div>
-        </div>
+        </>
     );
 }

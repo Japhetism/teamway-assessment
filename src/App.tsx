@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Navigation from "./components/navigation";
 import Background from "./components/background";
-import Landing from "./features/landing";
+import Landing from "./features/landing/ui";
 import Test from "./features/test";
 import Result from "./features/result";
 import './App.css';

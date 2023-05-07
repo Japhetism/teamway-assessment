@@ -10,7 +10,7 @@ export default function Background({ id, className, children }: Props) {
     );
 }
 
-type Props = {
+interface Props {
     id?:string;
     className: string;
     children: any;

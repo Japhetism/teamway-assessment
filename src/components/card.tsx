@@ -1,11 +1,3 @@
-interface CardProps {
-    title: string;
-    description: string;
-    linkName: string;
-    linkUrl: string;
-    image: string;
-}
-
 export default function Card({
     title,
     description,
@@ -34,4 +26,12 @@ export default function Card({
             </div>
         </div>
     )
+}
+
+interface CardProps {
+    title: string;
+    description: string;
+    linkName: string;
+    linkUrl: string;
+    image: string;
 }

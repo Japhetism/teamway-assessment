@@ -23,7 +23,9 @@ export default function Navigation({children}: any) {
                     </div>
                 </div>
             </nav>
-            {children}
+            <div className="p-20">
+                {children}
+            </div>
         </div>
     );
 }
