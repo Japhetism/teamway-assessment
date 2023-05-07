@@ -8,7 +8,7 @@ import {
 import Navigation from "./components/navigation";
 import Background from "./components/background";
 import Landing from "./features/landing/ui";
-import Test from "./features/test";
+import Test from "./features/test/ui";
 import Result from "./features/result";
 import './App.css';
 

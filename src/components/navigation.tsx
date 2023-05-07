@@ -16,7 +16,7 @@ export default function Navigation({children}: any) {
                 <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div className="text-sm lg:flex-grow">
                         {menus.map((menu: {name: string, link: string}) => (
-                            <a href={menu.link} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                            <a href={menu.link} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4" key={menu.name}>
                                 {menu.name}
                             </a>
                         ))}
