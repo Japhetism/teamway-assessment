@@ -30,7 +30,7 @@ export function App(): JSX.Element {
   }, []);
 
   return (
-    <Background className="h-screen w-screen">
+    <Background className="h-auto w-auto">
       <Navigation>
         <BrowserRouter>
           <Routes>
