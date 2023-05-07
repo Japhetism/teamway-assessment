@@ -1,6 +1,8 @@
+import { useEffect } from "react";
 import Card from "../../../components/card";
 import IntroExtroImg from "../../../assets/images/introextro.jpeg";
 import { landingPageContent } from "../../../constants/landingPageContent";
+import { clearStorage } from "../../../utils/helper";
 
 interface LandingPageContentProps {
     title: string;
@@ -11,6 +13,11 @@ interface LandingPageContentProps {
 }
 
 export default function Landing(): JSX.Element {
+
+    useEffect(() => (
+        clearStorage()
+    ),[]);
+
     return (
         <>
             <img src={IntroExtroImg} alt="Jap Psychologies" className="w-3/5 h-2/5" />

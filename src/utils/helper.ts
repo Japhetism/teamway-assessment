@@ -32,8 +32,8 @@ export const getQuestionAnswerType = (answer: string, extrovertOptions: string[]
 }
 
 export const getFinalResultType = (answers: string[]) => {
-    const extrovertCount = answers.filter(value => value == "Extrovert");
-    const introvertCount = answers.filter(value => value == "Introvert");
+    const extrovertCount = answers.filter(value => value === "Extrovert");
+    const introvertCount = answers.filter(value => value === "Introvert");
 
     return extrovertCount > introvertCount ? "Extrovert" : "Introvert";
 }
