@@ -1,6 +1,5 @@
-import { fireEvent, render, screen, within } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 import { createRenderer } from "react-test-renderer/shallow";
-import { act } from "react-test-renderer";
 import Landing from "..";
 import { landingPageContent } from "../../../../constants/landingPageContent";
 
