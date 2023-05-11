@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit test for test page  should render and match the snapshot 1`] = `
+<RecoilRoot_INTERNAL>
+  <Test />
+</RecoilRoot_INTERNAL>
+`;
