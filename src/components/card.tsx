@@ -6,7 +6,7 @@ export default function Card({
     image,
 }: CardProps) {
     return (
-        <div className="max-w-sm w-full lg:max-w-6xl lg:flex">
+        <div data-testid="card" className="max-w-sm w-full lg:max-w-6xl lg:flex">
             <div className="h-48 lg:h-auto lg:w-60 flex-none bg-fit rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style={{backgroundImage: `url(${image})`}} title={title}>
             </div>
             <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">

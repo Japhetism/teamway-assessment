@@ -5,10 +5,12 @@ exports[`Unit test for landing page  should render and match the snapshot 1`] = 
   <img
     alt="Jap Psychologies"
     className="w-3/5 h-2/5"
+    data-testid="banner-image"
     src="introextro.jpeg"
   />
   <div
     className="grid grid-rows-4 gap-10 py-10"
+    data-testid="card-header"
   >
     <Card
       description="An introvert is a person who remains isolated, or enjoys the company of few closed ones. An extrovert is an outgoing and outspoken person who enjoys being around and talking to people. They think before speaking. They reason things out by speaking them."

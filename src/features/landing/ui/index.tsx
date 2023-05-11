@@ -20,8 +20,8 @@ export default function Landing(): JSX.Element {
 
     return (
         <>
-            <img src={IntroExtroImg} alt="Jap Psychologies" className="w-3/5 h-2/5" />
-            <div className="grid grid-rows-4 gap-10 py-10">
+            <img data-testid="banner-image" src={IntroExtroImg} alt="Jap Psychologies" className="w-3/5 h-2/5" />
+            <div data-testid="card-header" className="grid grid-rows-4 gap-10 py-10">
                 {landingPageContent.map((content: LandingPageContentProps, index: number) => (
                     <Card
                         key={index}
