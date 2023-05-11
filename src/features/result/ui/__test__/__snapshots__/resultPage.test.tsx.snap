@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit test for result page  should render and match the snapshot 1`] = `
+<div
+  className="w-3/5 bg-white p-10"
+>
+  <div
+    className="text-center"
+  >
+    <h5>
+      Your Result
+    </h5>
+    <h3
+      className="text-4xl mt-5"
+    >
+      You are more of an 
+    </h3>
+  </div>
+  <div
+    className="mt-10"
+  >
+    <p>
+      
+    </p>
+  </div>
+</div>
+`;
