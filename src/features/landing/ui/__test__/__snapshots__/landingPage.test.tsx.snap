@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit test for landing page  should render and match the snapshot 1`] = `
+<React.Fragment>
+  <img
+    alt="Jap Psychologies"
+    className="w-3/5 h-2/5"
+    src="introextro.jpeg"
+  />
+  <div
+    className="grid grid-rows-4 gap-10 py-10"
+  >
+    <Card
+      description="An introvert is a person who remains isolated, or enjoys the company of few closed ones. An extrovert is an outgoing and outspoken person who enjoys being around and talking to people. They think before speaking. They reason things out by speaking them."
+      image="introextro.png"
+      linkName="Take Test"
+      linkUrl="/personality/take-test"
+      title="Are you an introvert or an extrovert?"
+    />
+    <Card
+      description="Whether you’re single and looking to find your soulmate, or fear the fire in a long-term partnership has fizzled out, take our test to discover what you should foster to let love in, and thrive"
+      image="relationship.png"
+      linkName="Find Out More"
+      linkUrl="/personality/relationship"
+      title="What do you need for love to flourish?"
+    />
+    <Card
+      description="Whether you love or loathe new year’s resolutions, changing our lifestyle habits is often easier said than done. Take this test, put together by Noom - the digital health platform focused on behaviour change - to make modifications that last"
+      image="emotional.png"
+      linkName="Read More"
+      linkUrl="/personality/emotional-wellbeing"
+      title="Where do you slip up when creating wellness goals?"
+    />
+    <Card
+      description="Time management is the process of organizing and planning how to divide your time between different activities. Get it right, and you'll end up working smarter, not harder, to get more done in less time – even when time is tight and pressures are high. The highest achievers manage their time exceptionally well."
+      image="time.jpeg"
+      linkName="Read More"
+      linkUrl="/personality/time-management"
+      title="What stops you making the most of your time?"
+    />
+  </div>
+</React.Fragment>
+`;
