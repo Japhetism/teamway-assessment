@@ -18,7 +18,7 @@ export default function Question({
     },[question]);
 
     return (
-        <div className="max-w-3xl rounded overflow-hidden shadow-lg bg-white mt-10">
+        <div data-testid="question-component" className="max-w-3xl rounded overflow-hidden shadow-lg bg-white mt-10">
             {!error && (
                 <>
                     <div className="px-6 py-4">

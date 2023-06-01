@@ -21,7 +21,7 @@ export default function Test(): JSX.Element {
 
     return (
         <div className="pb-20">
-            <h1 className="text-4xl">Are you an introvert or an extrovert?</h1>
+            <h1 data-testid="title-heading" className="text-4xl">Are you an introvert or an extrovert?</h1>
             <Question 
                 question={test?.details?.question}
                 options={test?.details?.options}

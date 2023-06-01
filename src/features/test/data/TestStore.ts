@@ -1,7 +1,7 @@
 import { atom, useRecoilState } from "recoil";
 import { TestResponse } from "../model/TestResponse";
 
-const testState = atom<TestResponse | null>({
+export const testState = atom<TestResponse | null>({
     key: 'test',
     default: null,
 });

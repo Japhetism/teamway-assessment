@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App and match the snapshot 1`] = `
+<Background
+  className="h-auto w-auto"
+>
+  <Navigation>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          element={<Landing />}
+          index={true}
+        />
+        <Route
+          element={<Test />}
+          path="/personality/take-test"
+        />
+        <Route
+          element={<Result />}
+          path="/personality/result"
+        />
+        <Route
+          element={<NotFound />}
+          path="*"
+        />
+      </Routes>
+    </BrowserRouter>
+  </Navigation>
+</Background>
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component should render and match the snapshot 1`] = `
+<div
+  className="max-w-sm w-full lg:max-w-6xl lg:flex"
+  data-testid="card"
+>
+  <div
+    className="h-48 lg:h-auto lg:w-60 flex-none bg-fit rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+    style={
+      Object {
+        "backgroundImage": "url(introextro.png)",
+      }
+    }
+    title="Are you an introvert or an extrovert?"
+  />
+  <div
+    className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+  >
+    <div
+      className="mb-8"
+    >
+      <div
+        className="text-gray-900 font-bold text-xl mb-2"
+      >
+        Are you an introvert or an extrovert?
+      </div>
+      <p
+        className="text-gray-700 text-base"
+      >
+        An introvert is a person who remains isolated, or enjoys the company of few closed ones. An extrovert is an outgoing and outspoken person who enjoys being around and talking to people. They think before speaking. They reason things out by speaking them.
+      </p>
+    </div>
+    <div
+      className="flex items-center"
+    >
+      <div
+        className="px-6 pt-4 pb-2"
+      >
+        <span
+          className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >
+          <a
+            href="/personality/take-test"
+          >
+            Take Test
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
